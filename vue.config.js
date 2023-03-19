@@ -8,6 +8,13 @@ module.exports = defineConfig({
           @import "@/assets/scss/variable.scss";
           @import "@/assets/scss/mixin.scss";
         `
+      },
+      postcss: {
+        plugins: [
+          require('postcss-px2rem')({
+            remUnit: 100
+          })
+        ]
       }
     }
   },

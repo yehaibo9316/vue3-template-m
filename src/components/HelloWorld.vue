@@ -187,6 +187,7 @@ export default {
   height: 40px;
   text-align: center;
   line-height: 40px;
+  font-size: 0.2rem;
 }
 
 .middle {
